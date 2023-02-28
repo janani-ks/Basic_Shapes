@@ -26,7 +26,6 @@ public class Shapes {
             area=t.area(n);
             display.println("The perimeter of Triangle = "+perimeter);
             display.println("The area of Triangle = "+area);
-            display.println("--------------------X---------------------");
             break;
             case "Rectangle":
             display.println("Enter the Rectangle Height and Width:");
@@ -38,7 +37,6 @@ public class Shapes {
             area=r.area(n);
             display.println("The perimeter of Rectangle  = "+perimeter);
             display.println("The area of Rectangle = "+area);
-            display.println("--------------------X---------------------");
             break;
             case "Circle":
             display.println("Enter the Circle Radius :");
@@ -49,12 +47,12 @@ public class Shapes {
             area=c.area(n);
             display.println("The perimeter of Circle = "+perimeter);
             display.println("The area of Circle = "+area);
-            display.println("--------------------X---------------------");
             break;
             default:
             display.println("Please Enter the choice between the range 1 to 3");
             break;
         }
+	display.println("--------------------X---------------------");
 }
 }
 
